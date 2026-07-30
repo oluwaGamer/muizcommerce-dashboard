@@ -6,13 +6,11 @@
       MuizCommerce GmbH Dashboard
     </h1>
 
-
     <div class="selection-sticky-top flex flex-gap-30 flex-center margin-top-10">
       <div class="dropdown">
         <label class="text-align-center">
           Select Month
         </label>
-
 
         <select v-model="selectedMonth">
 
@@ -22,7 +20,6 @@
           >
             Choose a month
           </option>
-
 
           <option
             v-for="month in months"
@@ -50,7 +47,6 @@
           >
             Choose a product
           </option>
-
 
           <option
             v-for="product in products"
@@ -130,40 +126,22 @@
         :product="selectedProduct"
         :month="selectedMonth"
       />
-
     </div>
 
-
   </div>
-
 </template>
 
-
-
 <script>
-
   import SalesChart from './charts/SalesChart.vue'
   import MonthlyBreakdownChart from './charts/MonthlyBreakdownChart.vue'
   import productData from './dashboard.js'
 
-
   export default {
-
     ...productData,
-
-
     components: {
-
       SalesChart,
-
       MonthlyBreakdownChart
-
     }
-
   }
-
 </script>
-
-
-
 <style scoped src="./dashboard.css"></style>

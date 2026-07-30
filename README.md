@@ -1,23 +1,10 @@
 # commerceMuiz
 
-This template should help get you started developing with Vue 3 in Vite.
+Hi :)
 
-## Recommended IDE Setup
+This is a simple dashboard I used to understand Vue.js and hopefully to be recruited for this job "https://alpine-business-consulting.now-remote.com/43033caf-7e81-4652-8225-03d6c6293a04" as a frontend developer.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+The project is live here: [https://muizdashboard.netlify.app/]
 
 ## Project Setup
 

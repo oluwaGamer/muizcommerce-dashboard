@@ -7,7 +7,7 @@
     </h1>
 
 
-    <div class="flex flex-gap-30 flex-center margin-top-10">
+    <div class="selection-sticky-top flex flex-gap-30 flex-center margin-top-10">
       <div class="dropdown">
         <label>
           Select Month

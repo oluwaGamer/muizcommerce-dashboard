@@ -1,17 +1,24 @@
-body{
-  background-color: grey;
+.sales-chart > div{
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-.sales-chart{
-  background-color: white;
-  border-radius: 30%;
-}
 .dashboard {
+  background: grey;
+  border-radius: 10px;
   padding: 40px;
-  padding-top: 0;
+  padding-top: 30;
   font-family: Arial, sans-serif;
 }
 
+.selection-sticky-top{
+    position: sticky;
+    top: 0;
+    background: grey;
+    width: 100%;
+    border-radius: 10px;
+}
 .buttons {
   display: flex;
   gap: 15px;

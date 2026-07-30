@@ -40,7 +40,7 @@ button {
   flex-wrap: wrap;
 }
 
-.two-col-flex > div {
+.two-col-flex  {
   flex: 0 0 calc(50% - 10px);
 }
 

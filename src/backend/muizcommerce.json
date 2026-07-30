@@ -1,0 +1,354 @@
+{
+  "products": [
+    {
+      "productId": "MC-001",
+      "productName": "Premium Wireless Headphones",
+      "category": "Electronics",
+      "collection": "Summer Electronics Collection",
+      "dateCreated": "2026-03-15",
+      "costPrice": 45.00,
+      "retailPrice": 129.99,
+      "monthlyReports": {
+        "january": {
+          "unitsSold": 280,
+          "revenue": 36397.20,
+          "returns": 9,
+          "returnRate": 3.21,
+          "amountRefunded": 1169.91,
+          "netRevenue": 35227.29,
+          "grossProfit": 23797.20
+        },
+        "february": {
+          "unitsSold": 350,
+          "revenue": 45496.50,
+          "returns": 12,
+          "returnRate": 3.43,
+          "amountRefunded": 1559.88,
+          "netRevenue": 43936.62,
+          "grossProfit": 29746.50
+        },
+        "march": {
+            "unitsSold": 390,
+            "revenue": 50696.10,
+            "returns": 14,
+            "returnRate": 3.59,
+            "amountRefunded": 1819.86,
+            "netRevenue": 48876.24,
+            "grossProfit": 33146.10
+        },
+        "april": {
+            "unitsSold": 410,
+            "revenue": 53295.90,
+            "returns": 16,
+            "returnRate": 3.90,
+            "amountRefunded": 2079.84,
+            "netRevenue": 51216.06,
+            "grossProfit": 34845.90
+        },
+        "may": {
+            "unitsSold": 430,
+            "revenue": 55895.70,
+            "returns": 17,
+            "returnRate": 3.95,
+            "amountRefunded": 2209.83,
+            "netRevenue": 53685.87,
+            "grossProfit": 36545.70
+        },
+        "june": {
+          "unitsSold": 420,
+          "revenue": 54595.80,
+          "returns": 18,
+          "returnRate": 4.28,
+          "amountRefunded": 2339.82,
+          "netRevenue": 52255.98,
+          "grossProfit": 35695.80
+        }
+      },
+      "inventory": {
+        "available": 280,
+        "awaitingDelivery": 45
+      }
+    },
+
+    {
+      "productId": "MC-002",
+      "productName": "Mechanical Gaming Keyboard",
+      "category": "Accessories",
+      "collection": "Gaming Collection",
+      "dateCreated": "2026-02-10",
+      "costPrice": 35.00,
+      "retailPrice": 89.99,
+      "monthlyReports": {
+        "january": {
+          "unitsSold": 190,
+          "revenue": 17098.10,
+          "returns": 6,
+          "returnRate": 3.16,
+          "amountRefunded": 539.94,
+          "netRevenue": 16558.16,
+          "grossProfit": 10448.10
+        },
+        "february": {
+          "unitsSold": 240,
+          "revenue": 21597.60,
+          "returns": 8,
+          "returnRate": 3.33,
+          "amountRefunded": 719.92,
+          "netRevenue": 20877.68,
+          "grossProfit": 13197.60
+        },
+        "march": {
+            "unitsSold": 270,
+            "revenue": 24297.30,
+            "returns": 9,
+            "returnRate": 3.33,
+            "amountRefunded": 809.91,
+            "netRevenue": 23487.39,
+            "grossProfit": 14847.30
+        },
+        "april": {
+            "unitsSold": 290,
+            "revenue": 26097.10,
+            "returns": 10,
+            "returnRate": 3.45,
+            "amountRefunded": 899.90,
+            "netRevenue": 25197.20,
+            "grossProfit": 15097.10
+        },
+        "may": {
+            "unitsSold": 300,
+            "revenue": 26997.00,
+            "returns": 10,
+            "returnRate": 3.33,
+            "amountRefunded": 899.90,
+            "netRevenue": 26097.10,
+            "grossProfit": 16497.00
+        },
+        "june": {
+          "unitsSold": 310,
+          "revenue": 27896.90,
+          "returns": 11,
+          "returnRate": 3.55,
+          "amountRefunded": 989.89,
+          "netRevenue": 26907.01,
+          "grossProfit": 17096.90
+        }
+      },
+      "inventory": {
+        "available": 150,
+        "awaitingDelivery": 30
+      }
+    },
+
+    {
+      "productId": "MC-003",
+      "productName": "Smart Fitness Watch",
+      "category": "Wearables",
+      "collection": "Health Tech Collection",
+      "dateCreated": "2026-01-22",
+      "costPrice": 55.00,
+      "retailPrice": 149.99,
+      "monthlyReports": {
+        "january": {
+          "unitsSold": 150,
+          "revenue": 22498.50,
+          "returns": 5,
+          "returnRate": 3.33,
+          "amountRefunded": 749.95,
+          "netRevenue": 21748.55,
+          "grossProfit": 14248.50
+        },
+        "february": {
+          "unitsSold": 220,
+          "revenue": 32997.80,
+          "returns": 7,
+          "returnRate": 3.18,
+          "amountRefunded": 1049.93,
+          "netRevenue": 31947.87,
+          "grossProfit": 20897.80
+        },
+        "march": {
+            "unitsSold": 110,
+            "revenue": 32998.90,
+            "returns": 5,
+            "returnRate": 4.55,
+            "amountRefunded": 1499.95,
+            "netRevenue": 31498.95,
+            "grossProfit": 19798.90
+        },
+        "april": {
+            "unitsSold": 125,
+            "revenue": 37498.75,
+            "returns": 6,
+            "returnRate": 4.80,
+            "amountRefunded": 1799.94,
+            "netRevenue": 35698.81,
+            "grossProfit": 22498.75
+        },
+        "may": {
+            "unitsSold": 275,
+            "revenue": 41247.25,
+            "returns": 10,
+            "returnRate": 3.64,
+            "amountRefunded": 1499.90,
+            "netRevenue": 39747.35,
+            "grossProfit": 26122.25
+        },
+        "june": {
+          "unitsSold": 280,
+          "revenue": 41997.20,
+          "returns": 10,
+          "returnRate": 3.57,
+          "amountRefunded": 1499.90,
+          "netRevenue": 40497.30,
+          "grossProfit": 26597.20
+        }
+      },
+      "inventory": {
+        "available": 210,
+        "awaitingDelivery": 60
+      }
+    },
+
+    {
+      "productId": "MC-004",
+      "productName": "Ergonomic Office Chair",
+      "category": "Furniture",
+      "collection": "Home Office Collection",
+      "dateCreated": "2026-04-05",
+      "costPrice": 120.00,
+      "retailPrice": 299.99,
+      "monthlyReports": {
+        "january": {
+          "unitsSold": 75,
+          "revenue": 22499.25,
+          "returns": 3,
+          "returnRate": 4.00,
+          "amountRefunded": 899.97,
+          "netRevenue": 21599.28,
+          "grossProfit": 13499.25
+        },
+        "february": {
+          "unitsSold": 95,
+          "revenue": 28499.05,
+          "returns": 4,
+          "returnRate": 4.21,
+          "amountRefunded": 1199.96,
+          "netRevenue": 27299.09,
+          "grossProfit": 17099.05
+        },
+        "march": {
+            "unitsSold": 110,
+            "revenue": 32998.90,
+            "returns": 5,
+            "returnRate": 4.55,
+            "amountRefunded": 1499.95,
+            "netRevenue": 31498.95,
+            "grossProfit": 19798.90
+        },
+            "april": {
+            "unitsSold": 125,
+            "revenue": 37498.75,
+            "returns": 6,
+            "returnRate": 4.80,
+            "amountRefunded": 1799.94,
+            "netRevenue": 35698.81,
+            "grossProfit": 22498.75
+        },
+        "may": {
+            "unitsSold": 135,
+            "revenue": 40498.65,
+            "returns": 7,
+            "returnRate": 5.19,
+            "amountRefunded": 2099.93,
+            "netRevenue": 38398.72,
+            "grossProfit": 24298.65
+        },
+        "june": {
+          "unitsSold": 130,
+          "revenue": 38998.70,
+          "returns": 6,
+          "returnRate": 4.62,
+          "amountRefunded": 1799.94,
+          "netRevenue": 37198.76,
+          "grossProfit": 23398.70
+        }
+      },
+      "inventory": {
+        "available": 80,
+        "awaitingDelivery": 25
+      }
+    },
+
+    {
+      "productId": "MC-005",
+      "productName": "4K Ultra HD Monitor",
+      "category": "Electronics",
+      "collection": "Professional Workspace",
+      "dateCreated": "2026-03-01",
+      "costPrice": 180.00,
+      "retailPrice": 399.99,
+      "monthlyReports": {
+        "january": {
+          "unitsSold": 90,
+          "revenue": 35999.10,
+          "returns": 4,
+          "returnRate": 4.44,
+          "amountRefunded": 1599.96,
+          "netRevenue": 34399.14,
+          "grossProfit": 19799.10
+        },
+        "february": {
+            "unitsSold": 120,
+            "revenue": 47998.80,
+            "returns": 5,
+            "returnRate": 4.17,
+            "amountRefunded": 1999.95,
+            "netRevenue": 45998.85,
+            "grossProfit": 26398.80
+        },
+        "march": {
+            "unitsSold": 140,
+            "revenue": 55998.60,
+            "returns": 6,
+            "returnRate": 4.29,
+            "amountRefunded": 2399.94,
+            "netRevenue": 53598.66,
+            "grossProfit": 30798.60
+        },
+
+        "april": {
+            "unitsSold": 155,
+            "revenue": 61998.45,
+            "returns": 7,
+            "returnRate": 4.52,
+            "amountRefunded": 2799.93,
+            "netRevenue": 59198.52,
+            "grossProfit": 34098.45
+            },
+        "may": {
+            "unitsSold": 170,
+            "revenue": 67998.30,
+            "returns": 8,
+            "returnRate": 4.71,
+            "amountRefunded": 3199.92,
+            "netRevenue": 64798.38,
+            "grossProfit": 37398.30
+        },
+        "june": {
+          "unitsSold": 160,
+          "revenue": 63998.40,
+          "returns": 7,
+          "returnRate": 4.38,
+          "amountRefunded": 2799.93,
+          "netRevenue": 61198.47,
+          "grossProfit": 35198.40
+        }
+      },
+      "inventory": {
+        "available": 95,
+        "awaitingDelivery": 20
+      }
+    }
+  ]
+}

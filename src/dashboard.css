@@ -1,0 +1,94 @@
+.dashboard {
+  padding: 40px;
+  padding-top: 0;
+  font-family: Arial, sans-serif;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.margin-top-10{
+  margin-top: 10px;
+}
+
+.margin-top-50{
+  margin-top: 50px;
+}
+
+.margin-bottom-0{
+  margin-bottom: 0px;
+}
+.product-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px #ddd;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.two-col-flex > div {
+  flex: 0 0 calc(50% - 10px);
+}
+
+.flex-gap-30{
+  gap:30px;
+}
+
+.flex-center{
+  justify-content: center;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+
+.dropdown label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.dropdown select {
+  width: 250px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: white;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.dropdown select:hover {
+  border-color: #888;
+}
+
+
+.dropdown select:focus {
+  border-color: #42A5F5;
+  box-shadow: 0 0 0 3px rgba(66, 165, 245, 0.2);
+}

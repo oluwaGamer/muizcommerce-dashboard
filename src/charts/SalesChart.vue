@@ -54,13 +54,23 @@ ChartJS.register(
 )
 
 
-
 const props = defineProps({
 
-  product: Object
+  product: Object,
+
+  month: String
 
 })
 
+
+const months = [
+  "january",
+  "february",
+  "march",
+  "april",
+  "may",
+  "june"
+]
 
 
 const chartData = computed(() => {
@@ -106,7 +116,34 @@ const chartData = computed(() => {
 
           props.product.monthlyReports.june.revenue
 
-        ]
+        ],
+
+
+        pointBackgroundColor: months.map(month => {
+
+          return month === props.month
+            ? "red"
+            : "white"
+
+        }),
+
+
+        pointBorderColor: months.map(month => {
+
+          return month === props.month
+            ? "red"
+            : "black"
+
+        }),
+
+
+        pointRadius: months.map(month => {
+
+          return month === props.month
+            ? 8
+            : 4
+
+        })
 
       }
 
@@ -119,19 +156,35 @@ const chartData = computed(() => {
 
 
 const chartOptions = {
+
   responsive: true,
+
+
   plugins: {
+
     legend: {
+
       position: "bottom"
+
     },
+
+
     tooltip: {
+
       callbacks: {
+
         label(context) {
+
           return " €" + context.raw.toLocaleString()
+
         }
+
       }
+
     }
+
   }
+
 }
 
 

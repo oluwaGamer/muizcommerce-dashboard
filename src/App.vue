@@ -9,7 +9,7 @@
 
     <div class="selection-sticky-top flex flex-gap-30 flex-center margin-top-10">
       <div class="dropdown">
-        <label>
+        <label class="text-align-center">
           Select Month
         </label>
 
@@ -39,7 +39,7 @@
         class="dropdown"
         v-if="selectedMonth"
       >
-        <label>
+        <label class="text-align-center">
           Select Product
         </label>
         <select v-model="selectedProduct">
@@ -128,7 +128,8 @@
       <SalesChart
         v-if="selectedProduct"
         :product="selectedProduct"
-        />
+        :month="selectedMonth"
+      />
 
     </div>
 

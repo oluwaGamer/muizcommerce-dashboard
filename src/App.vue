@@ -124,7 +124,7 @@
       </div>
     </div>
 
-    <div class="margin-top-50">
+    <div class="sales-chart margin-top-50">
       <SalesChart
         v-if="selectedProduct"
         :product="selectedProduct"
